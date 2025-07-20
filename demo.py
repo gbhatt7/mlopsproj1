@@ -7,7 +7,9 @@
 # logging.error("This is an error message.")
 # logging.critical("This is a critical message.")
 
-# below code is to check the exception config
+# --------------------------------------------------------------------------------
+
+# # below code is to check the exception config
 # from src.logger import logging
 # from src.exception import MyException
 # import sys
@@ -20,7 +22,7 @@
 
 # --------------------------------------------------------------------------------
 
-# from src.pipline.training_pipeline import TrainPipeline
+from src.pipline.training_pipeline import TrainPipeline
 
-# pipline = TrainPipeline()
-# pipline.run_pipeline()
+pipline = TrainPipeline()
+pipline.run_pipeline()
